@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send('My First Node Js Application Successfully Builded');
 })
 
+app.get('/home', (req, res) => {
+    res.send('Welcome to Aditya Node Js Application')
+})
+
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
 })
