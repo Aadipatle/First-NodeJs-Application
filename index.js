@@ -7,8 +7,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/home', (req, res) => {
-    res.send('Welcome to Aditya Node Js Application')
-})
+    res.send('First Node Js Application ')
+}) 
+app.get('/about', (req, res) => {
+    res.send('First Node Js Application build by Aadi')
+}) 
 
 app.listen(port,()=>{
     console.log(`listening on port ${port}`);
